@@ -386,6 +386,16 @@ export default [
         isGitHub: true,
     },
     {
+        name: "Internet Radio",
+        description: "Internet Radio allows you to stream live audio from thousands of internet radio stations while providing data to create music visualizers or anything in-between.",
+        code: "Ikelene/internetRadio.js",
+        banner: "Ikelene/internetRadio.svg",
+        creator: "Ikelene",
+        isGitHub: true,
+        unstable: true,
+        unstableReason: "Some radio stations / URLs may not work due to CORS or not supporting a proper audio format.\nThis is normal, do not report it.",
+    },
+    {
         name: "Beepbox Player",
         description: "Play, edit, and read songs from any BeepBox mod directly from the URL or JSON!",
         code: "DogeisCut/BeepBoxPlayer.js",
